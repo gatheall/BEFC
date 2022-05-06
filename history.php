@@ -135,9 +135,9 @@ margin:8px; width:300px" /></a> The middle of the first decade of the new
 century was a hard time for the club.  Membership began to dwindle, the
 economic downturn and the events of September the 11th, 2001 combining
 to make general aviation a luxury that most of the members could no
-longer afford.  In 2008, N52698 was sold to former member Tom Churchill,
+longer afford.  In 2002, N52698 was sold to former member Tom Marshall,
 the club membership no longer being able to justify the expense of
-owning two airplanes.  That same year saw the ranks shrink to just six
+owning two airplanes.  2008 saw the ranks shrink to just six
 members, former club President Luke Bassett, former club Vice President
 Jay Crosby, former Treasurer Dave Hempstead, longest tenured member and
 former board member Mark Chapman, and two others.  There were serious
@@ -188,18 +188,18 @@ Cherokee PA-28-140, tail number N8181N.
 
 <h3>What the Future May Hold</h3>
 
-<p>Times have certainly changed since the club was founded. Thanks to
+<p>Times have certainly changed since the club was founded.  Thanks to
 increased airport security, members now need special security badges to
 operate at their main home at the Portland International Jetport. 
 Northeast Aviation, formerly Northeast Airmotive, is the current FBO
-working with the club for tie-down space and small maintenance items, and
-for the past few years the club has even afforded to be able to hangar
-the planes during the winter, erasing the back-breaking chore of
-sweeping snow and chipping ice off of the wings and fuselage after each
-snowfall.  Snow cleanup was an ongoing winter event that had been with
-the club since its inception and one that former member and Operations
-Office Dwight Woodman came to dread.  So what's next for this little
-flying club of ours?</p>
+working with the club for hangar and tie-down space and small
+maintenance items, and for the past few years the club has even afforded
+to be able to hangar the planes during the winter, erasing the
+back-breaking chore of sweeping snow and chipping ice off of the wings
+and fuselage after each snowfall.  Snow cleanup was an ongoing winter
+event that had been with the club since its inception and one that
+former member and Operations Office Dwight Woodman came to dread.  So
+what's next for this little flying club of ours?</p>
 
 <p>At this point in time the club is as alive and active, and we hope
 the history continues for years to come.  2021 marks the 65th year for
