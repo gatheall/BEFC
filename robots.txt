@@ -1,0 +1,19 @@
+# See <http://www.robotstxt.org/wc/exclusion.html#robotstxt> for
+#    detailed info on excluding robots from a site.
+#
+# updated: 2021-08-02, George A. Theall
+
+
+# Selected search engine 'bots get pretty much free reign.
+User-agent: bingbot
+User-agent: Gigabot
+User-agent: Googlebot
+User-agent: Gowikibot
+User-agent: Linespider
+User-agent: Mj12bot
+Disallow: /administrate
+Disallow: /css
+Disallow: /icon
+Disallow: /img
+Disallow: /nogo
+Disallow: /scripts
