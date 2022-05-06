@@ -22,6 +22,14 @@
 <p>Many of our members love taking videos of their flights, particularly ones that are in any way unique. See below for a few videos of our planes, and more importantly our member pilots, in action!</p>
 
 <hr />
+<h2>18D landing December 2021 at Portland</h2>
+
+<p>A power-off 180 landing at Portland in December 2021.</p>
+
+<p><iframe frameborder="1" width="794" height="447" name="18D Power Off" scrolling="no" src="https://www.youtube.com/embed/yFMRaMuSdYk" width="800"></iframe></p>
+
+<h2>&nbsp;</h2>
+
 <h2>N4647R (RV-12) Short Field takeoff at KLEW!</h2>
 
 <p>Stephen Purcell with Instructor Jeff Van West working on short field takeoffs in the club's 2015 RV-12!</p>
@@ -109,7 +117,7 @@
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2021 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>

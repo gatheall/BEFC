@@ -36,13 +36,13 @@
 	<tbody>
 		<tr>
 			<td>Club President</td>
-			<td>John Lane</td>
-			<td>207-409-6285</td>
+			<td>Chip Lawrence</td>
+			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
 		</tr>
 		<tr>
 			<td>Vice President</td>
-			<td>Chip Lawrence</td>
+			<td>Marc Cardullo</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:vpresident@baldeagleflyingclub.org">vpresident@baldeagleflyingclub.org</a></td>
 		</tr>
@@ -60,13 +60,13 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Matt Hladik</td>
+			<td>Brent Adler</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Brent Adler</td>
+			<td>Matt Hladik</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 		</tr>
@@ -90,7 +90,7 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Brent Adler</td>
+			<td>Ryan Vogel</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 		</tr>
@@ -107,7 +107,7 @@
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2021 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>

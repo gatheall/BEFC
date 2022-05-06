@@ -199,7 +199,7 @@ margin:8px; width:660px" /></p>
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2021 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
