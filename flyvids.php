@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
  
  
@@ -22,6 +21,16 @@
 <p>Many of our members love taking videos of their flights, particularly ones that are in any way unique. See below for a few videos of our planes, and more importantly our member pilots, in action!</p>
 
 <hr />
+<h2>RNAV (GPS) 29 Approach at Portland, April 2022</h2>
+
+<P>RNAV (GPS)
+29 Approach at Portland with a broken cloud layer at 700 ft and heavy to
+extreme precipitation.<P>
+<blockquote class="twitter-tweet" data-theme="dark"><p lang="en" dir="ltr">IFR into Portland this afternoon <a href="https://t.co/5jYnrvUj1O">pic.twitter.com/5jYnrvUj1O</a></p>&mdash; George A. Theall (@gatheall) <a href="https://twitter.com/gatheall/status/1512952038396727296?ref_src=twsrc%5Etfw">April 10, 2022</a></blockquote> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
+
+
+<h2>&nbsp;</h2>
+
 <h2>18D landing December 2021 at Portland</h2>
 
 <p>A power-off 180 landing at Portland in December 2021.</p>
