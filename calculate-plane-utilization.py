@@ -66,6 +66,8 @@ def main(args):
         continue
       if plane[:1] != 'N':
         plane = 'N' + plane
+      if args.plane and plane != args.plane:
+        continue
 
       restype = row['Reservation Type']
       depart = datetime.datetime.strptime(row['Depart Date'], '%Y-%m-%d %H:%M:%S')
@@ -128,7 +130,16 @@ def main(args):
     logging.debug("  %s : ", plane)
     totals[plane] = {}
 
-    for dt in rrule(DAILY, dtstart=date_ranges[plane]['first'], until=date_ranges[plane]['last']):
+    if args.startdate:
+      startdate = datetime.datetime.strptime(args.startdate, '%Y%m%d')
+    else:
+      startdate = date_ranges[plane]['first']
+    if args.enddate:
+      enddate = datetime.datetime.strptime(args.enddate, '%Y%m%d')
+    else:
+      enddate = date_ranges[plane]['last']
+
+    for dt in rrule(DAILY, dtstart=startdate, until=enddate):
       logging.debug("    %s : ", str(dt))
       date = dt.date()
 
@@ -286,7 +297,7 @@ def main(args):
         for k2 in ['weekday', 'weekend']:
           for k3 in ['day', 'evening', 'night']:
             if round(totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3], 1) == 0:
-              print(" n/a", end="")
+              print("n/a", end="")
             else:
               rate = 100 * totals[plane][yyyymm]['flown'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
               print(" %6.1f" % rate, end="")
@@ -296,8 +307,11 @@ def main(args):
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Calculate plane utilization rates.')
+  parser.add_argument('-e', '--enddate', help='End date (yyyymmdd).', nargs='?')
   parser.add_argument('-f', '--format', default=format, help='Output format ("csv" or "txt").', nargs='?')
   parser.add_argument('-l', '--loglevel', default=loglevel, help='Level for logging messages.', nargs='?')
+  parser.add_argument('-p', '--plane', help='Limit attention to a specific plane.', nargs='?')
+  parser.add_argument('-s', '--startdate', help='Start date (yyyymmdd).', nargs='?')
   parser.add_argument("file", help="Flight / check-in export file")
   args = parser.parse_args()
 
