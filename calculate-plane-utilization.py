@@ -56,62 +56,63 @@ def main(args):
   date_ranges = {}
   active_pilots = {}
 
-  with open(args.file, newline='') as csvfile:
-    reader = csv.DictReader(csvfile)
-    for row in reader:
-      member = row['User']
-      plane = row['Tail Number']
-      # nb: ignore early records for test aircraft.
-      if plane == 'G1' or plane == 'G2':
-        continue
-      if plane[:1] != 'N':
-        plane = 'N' + plane
-      if args.plane and plane != args.plane:
-        continue
+  for file in args.files:
+    with open(file, newline='') as csvfile:
+      reader = csv.DictReader(csvfile)
+      for row in reader:
+        member = row['User']
+        plane = row['Tail Number']
+        # nb: ignore early records for test aircraft.
+        if plane == 'G1' or plane == 'G2':
+          continue
+        if plane[:1] != 'N':
+          plane = 'N' + plane
+        if args.plane and plane != args.plane:
+          continue
 
-      restype = row['Reservation Type']
-      depart = datetime.datetime.strptime(row['Depart Date'], '%Y-%m-%d %H:%M:%S')
-      checkin = datetime.datetime.strptime(row['Check-in Date'], '%Y-%m-%d %H:%M:%S')
+        restype = row['Reservation Type']
+        depart = datetime.datetime.strptime(row['Depart Date'], '%Y-%m-%d %H:%M:%S')
+        checkin = datetime.datetime.strptime(row['Check-in Date'], '%Y-%m-%d %H:%M:%S')
 
-      logging.debug("Departure          : %s", str(depart))
-      logging.debug("  Plane            : %s", plane)
-      logging.debug("  Reservation type : %s", restype)
-      logging.debug("  Member           : %s", member)
-      logging.debug("  Check-in         : %s", str(checkin))
+        logging.debug("Departure          : %s", str(depart))
+        logging.debug("  Plane            : %s", plane)
+        logging.debug("  Reservation type : %s", restype)
+        logging.debug("  Member           : %s", member)
+        logging.debug("  Check-in         : %s", str(checkin))
 
-      if plane not in flights.keys():
-        flights[plane] = {}
-        date_ranges[plane] = {}
-        active_pilots[plane] = {}
+        if plane not in flights.keys():
+          flights[plane] = {}
+          date_ranges[plane] = {}
+          active_pilots[plane] = {}
 
-      # Itereate over each day of the flight since
-      # flights can span days.
-      for d in rrule(DAILY, dtstart=depart, until=checkin):
-        logging.debug("    day : %s", str(d))
+        # Itereate over each day of the flight since
+        # flights can span days.
+        for d in rrule(DAILY, dtstart=depart, until=checkin):
+          logging.debug("    day : %s", str(d))
 
-        # nb: track each planes first and last flight across all the data.
-        if 'first' not in date_ranges[plane].keys():
-          date_ranges[plane]['first'] = d.date()
-          date_ranges[plane]['last'] = d.date()
-        else:
-          date_ranges[plane]['first'] = min(date_ranges[plane]['first'], d.date())
-          date_ranges[plane]['last'] = max(date_ranges[plane]['last'], d.date())
+          # nb: track each planes first and last flight across all the data.
+          if 'first' not in date_ranges[plane].keys():
+            date_ranges[plane]['first'] = d.date()
+            date_ranges[plane]['last'] = d.date()
+          else:
+            date_ranges[plane]['first'] = min(date_ranges[plane]['first'], d.date())
+            date_ranges[plane]['last'] = max(date_ranges[plane]['last'], d.date())
 
-        if d.date() == depart.date():
-          start = depart.time()
-        else:
-          start = datetime.datetime.min.time()
-        logging.debug("      start time : %s", str(start))
+          if d.date() == depart.date():
+            start = depart.time()
+          else:
+            start = datetime.datetime.min.time()
+          logging.debug("      start time : %s", str(start))
 
-        if d.date() == checkin.date():
-          end = checkin.time()
-        else:
-          end = datetime.datetime.max.time()
-        logging.debug("      end time   : %s", str(end))
+          if d.date() == checkin.date():
+            end = checkin.time()
+          else:
+            end = datetime.datetime.max.time()
+          logging.debug("      end time   : %s", str(end))
 
-        if d.date() not in flights[plane].keys():
-          flights[plane][d.date()] = []
-        flights[plane][d.date()].append((member, restype, start, end))
+          if d.date() not in flights[plane].keys():
+            flights[plane][d.date()] = []
+          flights[plane][d.date()].append((member, restype, start, end))
 
   # Total times.
   #
@@ -125,6 +126,10 @@ def main(args):
   #     - evening
   #     - night
   totals = {}
+
+  totals['_all_'] = {}
+  active_pilots['_all_'] = {}
+
   logging.debug("Totaling times")
   for plane in sorted(flights.keys()):
     logging.debug("  %s : ", plane)
@@ -146,8 +151,19 @@ def main(args):
       yyyymm = date.strftime("%Y-%m")
       logging.debug("    %s : ", yyyymm)
 
+      if yyyymm not in active_pilots['_all_'].keys():
+        active_pilots['_all_'][yyyymm] = {}
       if yyyymm not in active_pilots[plane].keys():
         active_pilots[plane][yyyymm] = {}
+
+      if yyyymm not in totals['_all_'].keys():
+        totals['_all_'][yyyymm] = {}
+        for k1 in ['flown', 'maintenance', 'possible']:
+          totals['_all_'][yyyymm][k1] = {}
+          for k2 in ['weekday', 'weekend']:
+            totals['_all_'][yyyymm][k1][k2] = {}
+            for k3 in ['day', 'evening', 'night']:
+              totals['_all_'][yyyymm][k1][k2][k3] = 0
 
       if yyyymm not in totals[plane].keys():
         totals[plane][yyyymm] = {}
@@ -194,6 +210,10 @@ def main(args):
       logging.debug("     total evening hours : %.1f", times['evening'])
       logging.debug("     total nighttime hours : %.1f", times['night'])
 
+      totals['_all_'][yyyymm]['possible'][daytype]['day'] = totals['_all_'][yyyymm]['possible'][daytype]['day'] + times['day']
+      totals['_all_'][yyyymm]['possible'][daytype]['evening'] = totals['_all_'][yyyymm]['possible'][daytype]['evening'] + times['evening']
+      totals['_all_'][yyyymm]['possible'][daytype]['night'] = totals['_all_'][yyyymm]['possible'][daytype]['night'] + times['night']
+
       totals[plane][yyyymm]['possible'][daytype]['day'] = totals[plane][yyyymm]['possible'][daytype]['day'] + times['day']
       totals[plane][yyyymm]['possible'][daytype]['evening'] = totals[plane][yyyymm]['possible'][daytype]['evening'] + times['evening']
       totals[plane][yyyymm]['possible'][daytype]['night'] = totals[plane][yyyymm]['possible'][daytype]['night'] + times['night']
@@ -208,6 +228,12 @@ def main(args):
         logging.debug("      reservation type : %s", restype)
 
         if restype == 'Primary' or restype == 'Backup' or restype == 'intro flight':
+          if member not in active_pilots['_all_'][yyyymm].keys():
+            logging.debug("adding %s as an active member for %s for %s.", member, 'all planes', yyyymm)
+            active_pilots['_all_'][yyyymm][member] = {}
+            active_pilots['_all_'][yyyymm][member]['departures'] = []
+          active_pilots['_all_'][yyyymm][member]['departures'].append(datetime.datetime.combine(date, start))
+
           if member not in active_pilots[plane][yyyymm].keys():
             logging.debug("adding %s as an active member for %s for %s.", member, plane, yyyymm)
             active_pilots[plane][yyyymm][member] = {}
@@ -252,6 +278,10 @@ def main(args):
           logging.warning("Ignoring reservation type (%s)!", restype)
           continue
 
+        totals['_all_'][yyyymm][k1][daytype]['day'] = totals['_all_'][yyyymm][k1][daytype]['day'] + times['day']
+        totals['_all_'][yyyymm][k1][daytype]['evening'] = totals['_all_'][yyyymm][k1][daytype]['evening'] + times['evening']
+        totals['_all_'][yyyymm][k1][daytype]['night'] = totals['_all_'][yyyymm][k1][daytype]['night'] + times['night']
+
         totals[plane][yyyymm][k1][daytype]['day'] = totals[plane][yyyymm][k1][daytype]['day'] + times['day']
         totals[plane][yyyymm][k1][daytype]['evening'] = totals[plane][yyyymm][k1][daytype]['evening'] + times['evening']
         totals[plane][yyyymm][k1][daytype]['night'] = totals[plane][yyyymm][k1][daytype]['night'] + times['night']
@@ -278,6 +308,25 @@ def main(args):
               rate = 100 * totals[plane][yyyymm]['flown'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
               cells.append(float(" %6.1f" % rate))
         writer.writerow([plane, yyyymm, 'utilization rate'] + cells)
+    if args.aggregate:
+      for yyyymm in sorted(totals['_all_'].keys()):
+        writer.writerow(['_all_', yyyymm, 'active pilots', len(active_pilots['_all_'][yyyymm].keys())])
+
+        for k1 in ['possible', 'maintenance', 'flown']:
+          cells = []
+          for k2 in ['weekday', 'weekend']:
+            for k3 in ['day', 'evening', 'night']:
+              cells.append(float(" %.1f" % (totals['_all_'][yyyymm][k1][k2][k3])))
+          writer.writerow(['_all_', yyyymm, k1 + ' hours'] + cells)
+        cells = []
+        for k2 in ['weekday', 'weekend']:
+          for k3 in ['day', 'evening', 'night']:
+            if round(totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3], 1) == 0:
+              cells.append(" n/a")
+            else:
+              rate = 100 * totals['_all_'][yyyymm]['flown'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
+              cells.append(float(" %6.1f" % rate))
+        writer.writerow(['_all_', yyyymm, 'utilization rate'] + cells)
   elif args.format == 'txt':
     for plane in sorted(flights.keys()):
       print(plane + " : ")
@@ -303,16 +352,40 @@ def main(args):
               print(" %6.1f" % rate, end="")
         print()
       print()
+    if args.aggregate:
+      print("All planes : ")
+      for yyyymm in sorted(totals['_all_'].keys()):
+        print("  " + yyyymm + " : ")
+
+        print("    Active pilots : ", len(active_pilots['_all_'][yyyymm].keys()))
+
+        for k1 in ['possible', 'maintenance', 'flown']:
+          print("    " + k1 + " (hours) : ", end="")
+          for k2 in ['weekday', 'weekend']:
+            for k3 in ['day', 'evening', 'night']:
+              print(" %.1f" % totals['_all_'][yyyymm][k1][k2][k3], end="")
+          print()
+        print("    Utilization (%) : ", end="")
+        for k2 in ['weekday', 'weekend']:
+          for k3 in ['day', 'evening', 'night']:
+              if round(totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3], 1) == 0:
+                print("n/a", end="")
+              else:
+                rate = 100 * totals['_all_'][yyyymm]['flown'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
+                print(" %6.1f" % rate, end="")
+
+        print()
 
 
 if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Calculate plane utilization rates.')
+  parser.add_argument('-a', '--aggregate', help='Output aggregate rates', action=argparse.BooleanOptionalAction)
   parser.add_argument('-e', '--enddate', help='End date (yyyymmdd).', nargs='?')
   parser.add_argument('-f', '--format', default=format, help='Output format ("csv" or "txt").', nargs='?')
   parser.add_argument('-l', '--loglevel', default=loglevel, help='Level for logging messages.', nargs='?')
   parser.add_argument('-p', '--plane', help='Limit attention to a specific plane.', nargs='?')
   parser.add_argument('-s', '--startdate', help='Start date (yyyymmdd).', nargs='?')
-  parser.add_argument("file", help="Flight / check-in export file")
+  parser.add_argument("files", help="Flight / check-in export file", nargs='+')
   args = parser.parse_args()
 
   if not isinstance(getattr(logging, args.loglevel.upper(), None), int):
