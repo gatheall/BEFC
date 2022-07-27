@@ -1,0 +1,304 @@
+# See <http://www.robotstxt.org/wc/exclusion.html#robotstxt> for
+#    detailed info on excluding robots from a site.
+#
+# See <http://www.searchengineworld.com/cgi-bin/robotcheck.cgi> for
+#    a way to validate the contents of this file.
+#
+# updated: 2022-05-04, George A. Theall
+
+
+# Selected search engine 'bots get pretty much free reign.
+# nb: 
+#     appie => Walhello, http://www.walhello.com/
+#     AspiegelBot => Huawei search engine
+#     Barkrowler => Babbar.Tech / Exensa, https://babbar.tech/crawler
+#     bingbot => Bing, http://www.bing.com/
+#     boitho.com-dc => Boitho, http://www.boitho.com/, Norwegian search engine
+#     Clarabot => http://www.clarabot.info/bots (domain not found) and https://hu.wikipedia.org/wiki/Clarabot, Hungarian search engine
+#     DataForSeoBot, https://dataforseo.com/dataforseo-bot, build / maintain database of backlinks.
+#     fast => Fastsearch (used by alltheweb.com)
+#     gaisbot => Gais, http://gais.cs.ccu.edu.tw/, Taiwanese search engine
+#     GalaxyBot => Galaxy, http://www.galaxy.com/
+#     Gigabot => Gigablast, https://www.gigablast.com/
+#     Googlebot => Google
+#     Gowikibot => Gowiki, https://www.gowiki.com/
+#     Linespider => https://help2.line.me/linesearchbot/web/?contentId=50006055&lang=en, Japanese search engine.
+#     Linguee Bot => Linguee, https://www.linguee.com/bot, a multilingual text search engine.
+#     Mercator + Scooter => AltaVista
+#     Mj12bot => Majestic-12, http://www.majestic12.co.uk/projects/dsearch/mj12bot.php, a distributed search engine.
+#     mogimogi => http://www.goo.ne.jp/, Japanese search engine.
+#     MojeekBot => https://www.mojeek.com/bot.html
+#     mozDex => http://www.mozdex.com/, an open source search engine
+#     msnbot => MSN Search.
+#     NG => Exalead, http://www.exalead.com/, French search engine
+#     Nutch => http://www.nutch.org/, open-source search engine
+#     oBot => https://www.xforce-security.com/crawler/, Content Security Division of IBM Germany Research & Development
+#     Pompos => dir.com, http://dir.com, French search engine
+#     QuepasaCreep => quepasa.com, Latin American portal / search engine
+#     SafeDNSBot => Safe DNS, https://www.safedns.com/en/searchbot/
+#     SeznamBot => https://napoveda.seznam.cz/en/seznamcz-web-search/, Czech search engine
+#     Slurp => Inktomi (includes MSN Search and HotBot)
+#     VIAS => http://vias.ncsa.uiuc.edu/viasarchivinginformation.html
+#     VoilaBot => http://www.voila.com (French search engine)
+#     vuhuvBot => http://vuhuv.com/bot.html (Turkish search engine)
+#     WellKnownBot => https://well-known.dev/, scans for selected .well-known resources.
+#     yacybot => https://yacy.net/bot.html (Decentralized web search)
+#     YandexBot => https://yandex.com/support/webmaster/robot-workings/robot.html, Yandex search
+#     Yeti => http://naver.me/spd (NAVER search engine)
+#     Zao => Kototai, http://www.kototai.org/, Japanese search engine research project
+#     ZyBorg => WiseNut, http://www.wisenut.com/, and Looksmart
+User-agent: appie
+User-agent: AspiegelBot
+User-agent: Barkrowler
+User-agent: bingbot
+User-agent: boitho.com-dc
+User-agent: Clarabot
+User-agent: DataForSeoBot
+User-agent: fast
+User-agent: gaisbot
+User-agent: GalaxyBot
+User-agent: Gigabot
+User-agent: Googlebot
+User-agent: Gowikibot
+User-agent: Linespider
+User-agent: Linguee
+User-agent: Mercator
+User-agent: Mj12bot
+User-agent: mogimogi
+User-agent: MojeekBot
+User-agent: mozDex
+User-agent: msnbot
+User-agent: NG
+User-agent: Nutch
+User-agent: oBot
+User-agent: Pompos
+User-agent: QuepasaCreep
+User-agent: SafeDNSBot
+User-agent: SeznamBot
+User-agent: Scooter
+User-agent: Slurp
+User-agent: VIAS
+User-agent: VoilaBot
+User-agent: vuhuvBot
+User-agent: WellKnownBot
+User-agent: yacybot
+User-agent: YandexBot
+User-agent: Yeti
+User-agent: Zao
+# NB: starting in January 2005, looksmart's seems to have switched from
+#     WiseNut to grub for its crawler. The later doesn't bother 
+#     requesting robots.txt and doesn't seem to understand response
+#     codes of 403. So should WiseNut ever come back, screw 'em.
+# User-agent: Zyborg
+Disallow: /administrate
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+
+# Other 'bots that I'm ok with.
+#   o Applebot (https://support.apple.com/en-us/HT204683)
+#
+#     nb: while it retrieves robots.txt, it has not respected rules in that,
+#         at least when it was not explicitly listed in the file.
+User-agent: Applebot
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o CCBot, https://commoncrawl.org/big-picture/frequently-asked-questions/
+User-agent: CCBot
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o IBM Almaden Research Center.
+User-agent: http://www.almaden.ibm.com/cs/crawler
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o IDG/EU => http://spaziodati.eu/, a European company building a knowledge graph.
+User-agent: IDG/EU
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o The Internet Archive, http://www.archive.org/.
+User-agent: ia_archiver
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o LinkWalker, http://www.seventwentyfour.com/, for checking links.
+User-agent: LinkWalker
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+#   o research project from Kitsuregawa Laboratory, The University of Tokyo.
+User-agent: Steeler
+Disallow: /cgi-bin
+Disallow: /hidden
+Disallow: /icons
+Disallow: /nogo
+Disallow: /sitebuildercontent
+
+
+# All robots are excluded by default.  Please direct requests to 
+# allow access to webmaster@tifaware.com.
+#
+# 'bots I know about but don't want to bother with
+#   o 3w24bot, https://3w24.com/addYourSite
+#       Appears to be for a search engine, although the main 
+#       page on the server only talks about the crawler itself.
+#   o Adsbot, https://seostar.co/robot/
+#       "Seostar collects link data from the web and shares it with 
+#       thousands of digital marketers." I'll pass.
+#   o AhrefsBot, https://ahrefs.com/robot/
+#       Quoting from the description of their bot, "Link data
+#       collected by Ahrefs Bot from the web is used by
+#       thousands of digital marketers around the world to plan,
+#       execute, and monitor their online marketing campaigns."
+#       Count me out.
+#   o arquivo-web-crawler, http://arquivo.pt
+#       Similar to the Internet Archive, although focused on
+#       the Portuguese web. Although it more or less respects
+#       robots.txt, I don't think the sites I host fit the
+#       bot's coverage area.
+#   o BLEXBot, http://webmeup-crawler.com/
+#       "BLEXBot assists internet marketers to get information
+#       on the link structure of sites and their interlinking
+#       on the web, to avoid any technical and possible legal
+#       issues and improve overall online experience." Count me
+#       out.
+#   o BuiltWith (aka BW), https://builtwith.com/biup (bit.ly/2W6Px8S)
+#       Tracks technology used by web sites.
+#   o CheckMarkNetwork, http://www.checkmarknetwork.com/spider.html/
+#       Used by CheckMark, which describes itself as [offering] 
+#       "Complete Brand Protection".
+#   o DF Bot
+#       I have not yet found any info about it.
+#   o DomainStatsBot, https://domainstats.com/pages/our-bot
+#       Used for marketing SEO services.
+#   o DomCopBot, https://www.domcop.com/bot
+#       Used by DomCop, an expired domain search tool.
+#   o DotBot, http://www.opensiteexplorer.org/dotbot
+#       I would be ok with this if it wouldn't seemingly invent
+#       URLs on my site that don't exist; eg,
+#       /perl/describe-openvas-plugins and /perl/update-openvas-plugins
+#   o evc-batch
+#       Operated by eVenture Capital Partners and reportedly
+#       scans for ads.txt (https://en.wikipedia.org/wiki/Ads.txt).
+#       I have no interest in supporting advertising here.
+#   o filibot, https://filibot.com/
+#       Used to analyze "SEO signals" of a site.
+#   o Girafabot
+#       Used by girafa.com to visualize search results. I'd be ok
+#       with this if only they'd respect robots.txt.
+#   o grub-client, http://grub.org/html/documents.php?op=robots-faq
+#       Distributed crawler for the grub search engine. I'd be ok
+#       with this if only they'd respect robots.txt.
+#   o IonCrawl, https://www.ionos.de/terms-gtc/faq-crawler-en/
+#       Although it seems to respect restrictions in robots.txt,
+#       it's purpose ("improve and expand our [Ionos'] world-class 
+#       hosting services") isn't one that interests me.
+#   o ips-agent
+#       Reportedly operated by Verisign for periodic reports for
+#       expiring domains and their associated web traffic. 
+#   o The Knowledge AI
+#       While it seems to respect restrictions in robots.txt,
+#       I haven't turned up any authoritative info about it,
+#       and what info there is suggests it doesn't support
+#       https (eg, https://www.webmasterworld.com/search_engine_spiders/4983886.htm).
+#   o lachesis, ftp://ftp.imag.fr/pub/labo-LSR/DRAKKAR/internet-performance/lachesis/
+#       Supposedly an Intel tool for measuring ISP latency, although
+#       after examining it I think it's mis-identified.
+#   o larbin, http://larbin.sourceforge.net/index-eng.html
+#       Multi-purpose web crawler.
+#   o MauiBot
+#       While it seems to respect restrictions in robots.txt,
+#       I haven't turned up any authoritative info about it,
+#       such as what it's for.
+#   o Mb2345Browser
+#       Browser used by Chinese web directory 2345.com according to
+#       <http://john.cuppi.net/blocking-aggressive-chinese-mobile-browser-bots/>.
+#       It seems to respect robots.txt, at least from what I've observed here.
+#   o MixnodeCache, https://www.mixnode.com/
+#       Used to scan web and make results in a database. I'd be happy
+#       to support this if it were available to some extent at no cost.
+#   o Mozilla/4.0 (efp@gmx.net)
+#       Spammer tool to scrape email addresses.
+#   o MTRobot, https://metrics-tools.de/robot.html
+#       Used for SEO analysis.
+#   o netEstate NE Crawler, http://www.website-datenbank.de/
+#       Some sites consider this crawler malicious and badly-behaved 
+#       so for now it's blocked.
+#   o NetpeakCheckerBot, https://netpeaksoftware.com/checker
+#       Yet another bot used by marketing.
+#   o NPBot, http://www.nameprotect.com/botinfo.html
+#       Used by NameProtect to scan for brand / IP violations.
+#   o PagePeeker, https://pagepeeker.com/robots/
+#       Used for a "website thumbnailing service", whatever that means.
+#   o PageThing.com, https://www.specialnoise.com/about/labs/pagething/
+#       Seems to respect robots.txt, but the specialnoise.com page
+#       doesn't really explain its purpose.
+#   o Pandalytics/1.0, https://domainsbot.com/pandalytics/
+#       While it seems to respect restrictions in robots.txt,
+#       it is operated by a company that studies the market
+#       for domain names, which I have no interest in 
+#       supporting.
+#   o PetalBot, https://aspiegel.com/petalbot, Huawei search engine
+#       I would be ok with this if it wouldn't seemingly invent
+#       URLs on my site that don't exist; eg,
+#       /perl/describe-openvas-plugins and /perl/update-openvas-plugins
+#   o Prlog, https://prlog.ru/
+#       Seems to be operated by a Russian SEO company for analysing sites.
+#   o Psbot, http://www.picsearch.com/bot.html
+#       Used by Picsearch to index pictures. I don't really have any
+#       pictures here that I want indexed.
+#   o Screaming Frog SEO Spider, https://www.screamingfrog.co.uk/seo-spider/
+#       Free / commercial software for crawling a site, primarily for SEO.
+#       Seems to respect robots.txt, albeit with requests for the top-level
+#       root document.
+#   o Seekport Crawler, http://seekport.com/
+#       Maintained by SISTRIX, which focuses on digital marketing.
+#   o SemrushBot*, https://www.semrush.com/bot/
+#       Used by SEMrush primarily for marketing.
+#   o serpstatbot, https://serpstatbot.com/
+#       Used by Serpstat for "planning and monitoring marketing campaigns."
+#       It claims to respect robots.txt and, so far from what I've seen,
+#       does.
+#   o tchelebi, https://tchelebi.io/
+#       Used by Black Kite (former NormShield) to perform Internet-wide
+#       scanning. While it does not request robots.txt, it claims to
+#       be non-intrusive and has so far only requested top-level pages
+#       here.
+#   o Teoma
+#       Used by AskJeeves search engine.  I'd be ok with it if only
+#       it would respect exclusions in robots.txt.
+#   o TurnitinBot, http://www.turnitin.com/robot/crawlerinfo.html
+#       Used by Turnitin.com to prevent plagarism. 
+#   o Vagabondo, https://www.wise-guys.nl/
+#       Requests robots.txt but does not respect exclusions in that.
+#   o webtechbot, https://www.webtechsurvey.com/bot
+#       "Collects web technology information detected on the websites."
+#   o ZoominfoBot, https://www.zoominfo.com/
+#       Used for B2B marketing.
+User-agent: *
+Disallow: /
+Disallow: /nogo
