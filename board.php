@@ -43,7 +43,7 @@
 		<tr>
 			<td>Vice President</td>
 			<td>Marc Cardullo</td>
-			<td>&nbsp;</td>
+			<td>(207) 590-5760</td>
 			<td><a href="mailto:vpresident@baldeagleflyingclub.org">vpresident@baldeagleflyingclub.org</a></td>
 		</tr>
 		<tr>
