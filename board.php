@@ -85,7 +85,7 @@
 		<tr>
 			<td>Member at Large</td>
 			<td>Kyle Warren</td>
-			<td>207-720-0774</td>
+			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 		</tr>
 		<tr>
