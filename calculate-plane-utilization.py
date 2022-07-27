@@ -158,7 +158,7 @@ def main(args):
 
       if yyyymm not in totals['_all_'].keys():
         totals['_all_'][yyyymm] = {}
-        for k1 in ['flown', 'maintenance', 'possible']:
+        for k1 in ['dispatched', 'maintenance', 'possible']:
           totals['_all_'][yyyymm][k1] = {}
           for k2 in ['weekday', 'weekend']:
             totals['_all_'][yyyymm][k1][k2] = {}
@@ -167,7 +167,7 @@ def main(args):
 
       if yyyymm not in totals[plane].keys():
         totals[plane][yyyymm] = {}
-        for k1 in ['flown', 'maintenance', 'possible']:
+        for k1 in ['dispatched', 'maintenance', 'possible']:
           totals[plane][yyyymm][k1] = {}
           for k2 in ['weekday', 'weekend']:
             totals[plane][yyyymm][k1][k2] = {}
@@ -271,7 +271,7 @@ def main(args):
         logging.debug("     nighttime hours : %.1f", times['night'])
 
         if restype == 'Primary' or restype == 'Backup' or restype == 'intro flight':
-          k1 = 'flown'
+          k1 = 'dispatched'
         elif restype == 'Maintenance' or restype == 'transport':
           k1 = 'maintenance'
         else:
@@ -293,7 +293,7 @@ def main(args):
       for yyyymm in sorted(totals[plane].keys()):
         writer.writerow([plane, yyyymm, 'active pilots', len(active_pilots[plane][yyyymm].keys())])
 
-        for k1 in ['possible', 'maintenance', 'flown']:
+        for k1 in ['possible', 'maintenance', 'dispatched']:
           cells = []
           for k2 in ['weekday', 'weekend']:
             for k3 in ['day', 'evening', 'night']:
@@ -305,14 +305,14 @@ def main(args):
             if round(totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3], 1) == 0:
               cells.append(" n/a")
             else:
-              rate = 100 * totals[plane][yyyymm]['flown'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
+              rate = 100 * totals[plane][yyyymm]['dispatched'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
               cells.append(float(" %6.1f" % rate))
         writer.writerow([plane, yyyymm, 'utilization rate'] + cells)
     if args.aggregate:
       for yyyymm in sorted(totals['_all_'].keys()):
         writer.writerow(['_all_', yyyymm, 'active pilots', len(active_pilots['_all_'][yyyymm].keys())])
 
-        for k1 in ['possible', 'maintenance', 'flown']:
+        for k1 in ['possible', 'maintenance', 'dispatched']:
           cells = []
           for k2 in ['weekday', 'weekend']:
             for k3 in ['day', 'evening', 'night']:
@@ -324,7 +324,7 @@ def main(args):
             if round(totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3], 1) == 0:
               cells.append(" n/a")
             else:
-              rate = 100 * totals['_all_'][yyyymm]['flown'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
+              rate = 100 * totals['_all_'][yyyymm]['dispatched'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
               cells.append(float(" %6.1f" % rate))
         writer.writerow(['_all_', yyyymm, 'utilization rate'] + cells)
   elif args.format == 'txt':
@@ -336,7 +336,7 @@ def main(args):
 
         print("    Active pilots : ", len(active_pilots[plane][yyyymm].keys()))
 
-        for k1 in ['possible', 'maintenance', 'flown']:
+        for k1 in ['possible', 'maintenance', 'dispatched']:
           print("    " + k1 + " (hours) : ", end="")
           for k2 in ['weekday', 'weekend']:
             for k3 in ['day', 'evening', 'night']:
@@ -348,7 +348,7 @@ def main(args):
             if round(totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3], 1) == 0:
               print("n/a", end="")
             else:
-              rate = 100 * totals[plane][yyyymm]['flown'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
+              rate = 100 * totals[plane][yyyymm]['dispatched'][k2][k3] / (totals[plane][yyyymm]['possible'][k2][k3] - totals[plane][yyyymm]['maintenance'][k2][k3])
               print(" %6.1f" % rate, end="")
         print()
       print()
@@ -359,7 +359,7 @@ def main(args):
 
         print("    Active pilots : ", len(active_pilots['_all_'][yyyymm].keys()))
 
-        for k1 in ['possible', 'maintenance', 'flown']:
+        for k1 in ['possible', 'maintenance', 'dispatched']:
           print("    " + k1 + " (hours) : ", end="")
           for k2 in ['weekday', 'weekend']:
             for k3 in ['day', 'evening', 'night']:
@@ -371,7 +371,7 @@ def main(args):
               if round(totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3], 1) == 0:
                 print("n/a", end="")
               else:
-                rate = 100 * totals['_all_'][yyyymm]['flown'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
+                rate = 100 * totals['_all_'][yyyymm]['dispatched'][k2][k3] / (totals['_all_'][yyyymm]['possible'][k2][k3] - totals['_all_'][yyyymm]['maintenance'][k2][k3])
                 print(" %6.1f" % rate, end="")
 
         print()
