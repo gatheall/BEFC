@@ -213,10 +213,6 @@ Disallow: /sitebuildercontent
 #   o grub-client, http://grub.org/html/documents.php?op=robots-faq
 #       Distributed crawler for the grub search engine. I'd be ok
 #       with this if only they'd respect robots.txt.
-#   o IonCrawl, https://www.ionos.de/terms-gtc/faq-crawler-en/
-#       Although it seems to respect restrictions in robots.txt,
-#       it's purpose ("improve and expand our [Ionos'] world-class 
-#       hosting services") isn't one that interests me.
 #   o ips-agent
 #       Reportedly operated by Verisign for periodic reports for
 #       expiring domains and their associated web traffic. 
