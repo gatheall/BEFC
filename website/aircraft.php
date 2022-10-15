@@ -96,7 +96,7 @@ margin:8px; width:660px" /></p>
 
 
 
-<p>In the spring of 2021, the club purchased a 1968 Piper Cherokee PA-28-140, tail number N8181N. The plane has a traditional "six pack" of flight instruments, a single radio, and ADS-B out.  And at $100 / hour, it's the club's preferred trainer for those looking to get their private pilot's license.</p>
+<p>In the spring of 2021, the club purchased a 1968 Piper Cherokee PA-28-140, tail number N8181N. The plane has a traditional "six pack" of flight instruments, a single radio, and ADS-B out.  And at $110 / hour, it's the club's preferred trainer for those looking to get their private pilot's license.</p>
 
 <p>&nbsp;</p>
 
@@ -146,7 +146,7 @@ margin:8px; width:660px" /></p>
 		</tr>
 		<tr>
 			<td>Usage Rate:</td>
-			<td>$120/hr</td>
+			<td>$130/hr</td>
 		</tr>
 	</tbody>
 </table>
@@ -190,7 +190,7 @@ margin:8px; width:660px" /></p>
 		</tr>
 		<tr>
 			<td>Usage Rate:</td>
-			<td>$100</td>
+			<td>$110</td>
 		</tr>
 	</tbody>
 </table>

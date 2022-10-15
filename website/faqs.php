@@ -61,7 +61,7 @@ How are the planes maintained?</h3>
 <h3><br />
 How much does it cost to fly?</h3>
 
-<p>The current rate for N4818D (Cessna 172N) is $120/hr wet, and it's $100/hr wet for N8181N (Piper Cherokee).</p>
+<p>The current rate for N4818D (Cessna 172N) is $130/hr wet, and it's $110/hr wet for N8181N (Piper Cherokee).</p>
 
 <h3><br />
 How much does it cost to join the club?</h3>
@@ -103,7 +103,7 @@ Can the club help me learn to fly?</h3>
 <h3><br />
 How much does it cost to become a pilot?</h3>
 
-<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $8000+, but that price can be much higher if you require more hours before you are ready for your checkride. </p>
+<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $9000, but that price can be much higher if you require more hours before you are ready for your checkride. </p>
 
 <p>&nbsp;</p>
 

@@ -63,8 +63,8 @@ margin:8px; width:683px" />Cost</h3>
 
 <p>Aircraft usage fees for our aircraft are very competitive compared to
 normal aircraft rental fees, and are a big benefit to our members.  Our
-Cessna 172N, N4818D is $120/hr, and our Piper Cherokee, N8181N, is
-$100/hr.  All usage fees are
+Cessna 172N, N4818D is $130/hr, and our Piper Cherokee, N8181N, is
+$110/hr.  All usage fees are
 "wet" -- meaning they include fuel -- and time is measured by tach time,
 which is more "pilot friendly" than Hobbs time.</p>
 
