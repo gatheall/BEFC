@@ -177,11 +177,11 @@ safely, to your experience in the air.  </p>
 		<div id="rightcolumn">
 		<h2>Did you know?</h2>
 
-<p>Maine ranks #43 in number of total pilots with 3,149, but is #19 in per capita pilots, with 238 per 100,000.</p>
+<p>In 2003, Maine ranked #43 in number of total active pilots with 3,149, but was #19 in per capita pilots, with 238 per 100,000.</p>
 
-<p>Not surprisingly, Alaska ranks #1 in per capita pilots, with 1303 per 100,000.</p>
+<p>Not surprisingly, Alaska ranked #1 in per capita pilots, with 1,313 per 100,000.</p>
 
-<p>(Source <a href="http://www.statemaster.com/graph/trn_act_avi_pil_percap-active-aviation-pilots-per-capita">Statemaster.com</a> ) </p>
+<p>(Source <a href="https://web.archive.org/web/20190715091248/http://www.statemaster.com/graph/trn_act_avi_pil_percap-active-aviation-pilots-per-capita">Statemaster.com</a> ) </p>
  
 		</div>
         </div>
