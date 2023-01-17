@@ -54,7 +54,7 @@
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>Nick Altman</td>
+			<td>Monica Girard</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
 		</tr>
@@ -84,7 +84,7 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Kyle Warren</td>
+			<td>Tom Pulling</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 		</tr>
@@ -107,7 +107,7 @@
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2023 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
