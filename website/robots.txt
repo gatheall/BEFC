@@ -4,7 +4,7 @@
 # See <http://www.searchengineworld.com/cgi-bin/robotcheck.cgi> for
 #    a way to validate the contents of this file.
 #
-# updated: 2022-05-04, George A. Theall
+# updated: 2022-12-23, George A. Theall
 
 
 # Selected search engine 'bots get pretty much free reign.
@@ -45,6 +45,7 @@
 #     yacybot => https://yacy.net/bot.html (Decentralized web search)
 #     YandexBot => https://yandex.com/support/webmaster/robot-workings/robot.html, Yandex search
 #     Yeti => http://naver.me/spd (NAVER search engine)
+#     ZaldamoSearchBot => https://www.zaldamo.com/search.html
 #     Zao => Kototai, http://www.kototai.org/, Japanese search engine research project
 #     ZyBorg => WiseNut, http://www.wisenut.com/, and Looksmart
 User-agent: appie
@@ -84,6 +85,7 @@ User-agent: WellKnownBot
 User-agent: yacybot
 User-agent: YandexBot
 User-agent: Yeti
+User-agent: ZaldamoSearchBot
 User-agent: Zao
 # NB: starting in January 2005, looksmart's seems to have switched from
 #     WiseNut to grub for its crawler. The later doesn't bother 
