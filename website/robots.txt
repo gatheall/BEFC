@@ -4,7 +4,7 @@
 # See <http://www.searchengineworld.com/cgi-bin/robotcheck.cgi> for
 #    a way to validate the contents of this file.
 #
-# updated: 2022-12-23, George A. Theall
+# updated: 2023-02-13, George A. Theall
 
 
 # Selected search engine 'bots get pretty much free reign.
@@ -36,6 +36,7 @@
 #     Pompos => dir.com, http://dir.com, French search engine
 #     QuepasaCreep => quepasa.com, Latin American portal / search engine
 #     SafeDNSBot => Safe DNS, https://www.safedns.com/en/searchbot/
+#     SeekportBot => https://bot.seekport.com/, Seekport search
 #     SeznamBot => https://napoveda.seznam.cz/en/seznamcz-web-search/, Czech search engine
 #     Slurp => Inktomi (includes MSN Search and HotBot)
 #     VIAS => http://vias.ncsa.uiuc.edu/viasarchivinginformation.html
@@ -75,6 +76,7 @@ User-agent: oBot
 User-agent: Pompos
 User-agent: QuepasaCreep
 User-agent: SafeDNSBot
+User-agent: SeekportBot
 User-agent: SeznamBot
 User-agent: Scooter
 User-agent: Slurp
