@@ -39,6 +39,14 @@ extreme precipitation.<P>
 
 <h2>&nbsp;</h2>
 
+<h2>Dynon Skyview install in 18D, Winter 2019</h2>
+
+<p>This video talks about the Dynon Skyview install in our Skyhawk.</p>
+
+<p><iframe width="1034" height="582" src="https://www.youtube.com/embed/Reh8-6fBQDA" title="Dynon SkyView in a Skyhawk" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe></p>
+
+<h2>&nbsp;</h2>
+
 <h2>N4647R (RV-12) Short Field takeoff at KLEW!</h2>
 
 <p>Stephen Purcell with Instructor Jeff Van West working on short field takeoffs in the club's 2015 RV-12!</p>
