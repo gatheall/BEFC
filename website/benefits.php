@@ -87,8 +87,8 @@ Vineyard, or take the whole family for a vacation to Ohio.</p>
 		<div id="rightcolumn">
 		<h3>Club Facts:</h3>
 
-<p>As of September 2022, there are 30 regular members in the club, 8
-associate members, and 7 family members.</p>
+<p>As of the start of May 2023, there are 29 regular members in the club, 5
+associate members, and 9 family members.</p>
 
 <p>Among its members are 2 Certified Flight Instructors (CFIs), who
 provide instruction for members pursuing a pilot's license or additional
@@ -102,7 +102,7 @@ out members in the club's planes.</P>
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2023 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
