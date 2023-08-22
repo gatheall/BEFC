@@ -15,7 +15,7 @@
 		<div id="content">
 		<h2>How to Join</h2>
 
-<p>We're sorry - the club is <B>not</B> accepting new members at this time.</p>
+<p>Interested in joinging the club? Download the <A HREF="BEFC%20Application.pdf">membership application form</A>, fill it out, and then email it to <a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a>.
 
 </body>
 </html>
