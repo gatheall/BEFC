@@ -22,8 +22,6 @@ loglevel = 'WARNING'
 ############################################################################
 def main(args):
   # Read transaction data
-
-  # nb: 'flights' will hold information about flights as well as maintenance reservations
   transactions = {}
   members = {}
 
