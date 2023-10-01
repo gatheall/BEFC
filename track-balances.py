@@ -44,7 +44,9 @@ def main(args):
         if transaction_type == 'Payment':
           amt = round(float(row['Payment']), 2)
         elif transaction_type == 'Charge':
-          if transaction_desc == 'Surcharge' or transaction_desc == 'Service Fee':
+          if "(Non Revenue)" in transaction_desc:
+            continue
+          elif transaction_desc == 'Surcharge' or transaction_desc == 'Service Fee':
             transaction_type = 'Payment'
             amt = -1 * round(float(row['Adjustment']), 2)
           else:
