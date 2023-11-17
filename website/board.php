@@ -31,6 +31,7 @@
 			<th scope="col">Name</th>
 			<th scope="col">Phone</th>
 			<th scope="col">Email</th>
+			<th scope="col">Board Term</th>
 		</tr>
 	</thead>
 	<tbody>
@@ -39,60 +40,70 @@
 			<td>Chip Lawrence</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
+			<td>2022-2023</td>
 		</tr>
 		<tr>
 			<td>Vice President</td>
 			<td>Marc Cardullo</td>
 			<td>(207) 590-5760</td>
 			<td><a href="mailto:vpresident@baldeagleflyingclub.org">vpresident@baldeagleflyingclub.org</a></td>
+			<td>2023-2024</td>
 		</tr>
 		<tr>
 			<td>Treasurer</td>
 			<td>George A. Theall</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:treasurer@baldeagleflyingclub.org">treasurer@baldeagleflyingclub.org</a></td>
+			<td>2023-2024</td>
 		</tr>
 		<tr>
 			<td>Secretary</td>
 			<td>Monica Girard</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
+			<td>2023-2024</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
 			<td>Brent Adler</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
+			<td>2022-2023</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
 			<td>Matt Hladik</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
+			<td>&nbsp;</td>
 		</tr>
 		<tr>
 			<td>Flight Instructor</td>
 			<td>Multiple</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:cfi@baldeagleflyingclub.org">cfi@baldeagleflyingclub.org</a></td>
+			<td>&nbsp;</td>
 		</tr>
 		<tr>
 			<td>Webmaster</td>
 			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:website@baldeagleflyingclub.org">website@baldeagleflyingclub.org</a></td>
+			<td>&nbsp;</td>
 		</tr>
 		<tr>
 			<td>Member at Large</td>
 			<td>Tom Pulling</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
+			<td>2023-2024</td>
 		</tr>
 		<tr>
 			<td>Member at Large</td>
 			<td>Ryan Vogel</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
+			<td>2022-2023</td>
 		</tr>
 	</tbody>
 </table>
