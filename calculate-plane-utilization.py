@@ -2,7 +2,7 @@
 #
 # Calculate plane utilization based on "Flights / Check-ins" export in Flight Circle.
 #
-# Copyright (c) 2022, George A. Theall. All rights reserved.
+# Copyright (c) 2022-2024, George A. Theall. All rights reserved.
 
 
 ############################################################################
@@ -34,7 +34,7 @@ kpwm.pressure = 0
 kpwm.horizon = '-0:34'
 kpwm.lat, kpwm.lon = '43.65', '-70.31'  # nb: for KPWM
 
-loglevel = 'WARNING'
+loglevel = 'INFO'
 
 
 ############################################################################
@@ -139,10 +139,12 @@ def main(args):
       startdate = datetime.datetime.strptime(args.startdate, '%Y%m%d')
     else:
       startdate = date_ranges[plane]['first']
+      logging.info("NB : start date for %s is %s.", plane, str(startdate))
     if args.enddate:
       enddate = datetime.datetime.strptime(args.enddate, '%Y%m%d')
     else:
       enddate = date_ranges[plane]['last']
+      logging.info("NB : end date for %s is %s.", plane, str(enddate))
 
     for dt in rrule(DAILY, dtstart=startdate, until=enddate):
       logging.debug("    %s : ", str(dt))
