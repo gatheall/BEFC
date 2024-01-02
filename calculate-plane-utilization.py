@@ -290,7 +290,7 @@ def main(args):
         elif restype == 'Maintenance' or restype == 'transport':
           k3 = 'maintenance'
         else:
-          logging.warning("Ignoring reservation type (%s)!", restype)
+          logging.warning("Ignoring unexpected reservation type (%s)!", restype)
           continue
 
         for k1 in ['_all_', plane]:
