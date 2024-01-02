@@ -2,6 +2,8 @@
 #
 # Calculate plane utilization based on "Flights / Check-ins" export in Flight Circle.
 #
+# nb: changing pilot names in Flight Circle causes the number of active pilots to be inflated.
+#
 # Copyright (c) 2022-2024, George A. Theall. All rights reserved.
 
 
