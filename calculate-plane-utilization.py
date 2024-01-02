@@ -474,7 +474,7 @@ if __name__ == '__main__':
   parser = argparse.ArgumentParser(description='Calculate plane utilization rates.')
   parser.add_argument('-a', '--aggregate', choices=['planes', 'time', 'both'], help='Output aggregate rates.', nargs='?')
   parser.add_argument('-e', '--enddate', help='End date (yyyymmdd).', nargs='?')
-  parser.add_argument('-f', '--format', default=format, help='Output format ("csv" or "txt").', nargs='?')
+  parser.add_argument('-f', '--format', default=format, choices=['csv', 'txt'], help='Output format.', nargs='?')
   parser.add_argument('-l', '--loglevel', default=loglevel, help='Level for logging messages.', nargs='?')
   parser.add_argument('-p', '--plane', help='Limit attention to a specific plane.', nargs='?')
   parser.add_argument('-s', '--startdate', help='Start date (yyyymmdd).', nargs='?')
