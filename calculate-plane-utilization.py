@@ -45,7 +45,7 @@ def calculate_time_diff(start, end):
   logging.debug("calculate_time_diff() : end : %s", str(end))
 
   # in hours
-  diff = (end - start).total_seconds()/(60*60)
+  diff = round((end - start).total_seconds()/(60*60), 1)
   logging.debug("calculate_time_diff() :   diff: %.1f", diff)
   return diff
 
