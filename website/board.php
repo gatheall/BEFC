@@ -40,7 +40,7 @@
 			<td>Chip Lawrence</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
-			<td>2022-2023</td>
+			<td>2024-2025</td>
 		</tr>
 		<tr>
 			<td>Vice President</td>
@@ -65,14 +65,14 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Brent Adler</td>
+			<td>Randall Walls</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
-			<td>2022-2023</td>
+			<td>2024-2025</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Matt Hladik</td>
+			<td>vacant</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
@@ -100,10 +100,10 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Ryan Vogel</td>
+			<td>Michael Weldon</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
-			<td>2022-2023</td>
+			<td>2024-2025</td>
 		</tr>
 	</tbody>
 </table>
@@ -118,7 +118,7 @@
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2023 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2024 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
