@@ -72,7 +72,7 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>vacant</td>
+			<td>Aaron Bundy</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
