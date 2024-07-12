@@ -1,0 +1,24 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA512
+
+Contact: mailto:theall@tifaware.com
+Expires: 2025-01-31T23:59:00.000Z
+Encryption: https://www.tifaware.com/~theall/gpg.html
+Preferred-Languages: en,es
+Canonical: https://www.baldeagleflyingclub.org/.well-known/security.txt
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCgAdFiEEW52h9ePJ03Q86hYWMgtf/UXMKkwFAmaRWXwACgkQMgtf/UXM
+KkyduQ/+LuyL1XvYSa4Iadx9M/VJFiCO6pTn0FGGERHW3XjmFWFAc2I0v0bV47MI
+9O7bS3HLY1LLztYr+17giYag+p1eTRN4kzUTxV70ulyxTBdQVA5cC4Vhz9hUivSH
+SYXRfSXr2kguxBjRngfnMJx57k3X9WHYj2+SPj2wa/pQziPrf9CfyE2IWhIzcgEq
+mJ0O+A1jU7y7B3mLfp0puoANUSyhUP7QWAwmtkegUNvjSIhYKnNBdcw1KYrYr+tN
+9KxT7vnmmcPHJDt+ELIqVmho0BZIm7DRuR5b4Yi5I6eWLr0dIFoE1AHlzE0WbYW8
+9QiLGtGfTdsAXcPRLU1yFGOBGUjn69prjdWUWjT+BHNdrs/kOjtqbs3ux1VaS23O
+Lshq8NcJZzwpkK0ov9Qw0CDxs1Xsee+3HB2fXuvGzupOsXTimbBBob3Psyk9V36j
+XB75NSVzfx4s0S1S1SsZDm8F5v4z/5VaxPE4WqyDmhn0rkvm2DDpsGSB9r5nWhsn
+4TURyY7Ta6G+7oh1oR7s0b58dib3MknNTYw3aHClBe/5aW1Zy9mjajKPDXW2+x+J
+M7yHi6W7mOJM/kNgsjnVXFHQom9hTQorNsR5Yk5DOi7lmQkwrXyjRegIVKa2bMy6
+JlM6u7XuMg6UmoAMYNTlxgbhcHwITA/bXf7shmCi7uuDKWBeLQ4=
+=u6Mx
+-----END PGP SIGNATURE-----
