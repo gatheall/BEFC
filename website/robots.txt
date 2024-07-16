@@ -4,11 +4,12 @@
 # See <http://www.searchengineworld.com/cgi-bin/robotcheck.cgi> for
 #    a way to validate the contents of this file.
 #
-# updated: 2023-02-13, George A. Theall
+# updated: 2024-07-16, George A. Theall
 
 
 # Selected search engine 'bots get pretty much free reign.
 # nb: 
+#     Amazonbot => Amazonbot, https://developer.amazon.com/amazonbot
 #     appie => Walhello, http://www.walhello.com/
 #     AspiegelBot => Huawei search engine
 #     Barkrowler => Babbar.Tech / Exensa, https://babbar.tech/crawler
@@ -49,6 +50,7 @@
 #     ZaldamoSearchBot => https://www.zaldamo.com/search.html
 #     Zao => Kototai, http://www.kototai.org/, Japanese search engine research project
 #     ZyBorg => WiseNut, http://www.wisenut.com/, and Looksmart
+User-agent: Amazonbot
 User-agent: appie
 User-agent: AspiegelBot
 User-agent: Barkrowler
