@@ -87,10 +87,10 @@ Vineyard, or take the whole family for a vacation to Ohio.</p>
 		<div id="rightcolumn">
 		<h3>Club Facts:</h3>
 
-<p>As of mid June 2024, there are 36 regular members in the club, 12
+<p>As of mid September 2024, there are 36 regular members in the club, 12
 associate members, and 11 family members.</p>
 
-<p>Among its members are 2 Certified Flight Instructors (CFIs), who
+<p>Among its members are 3 Certified Flight Instructors (CFIs), who
 provide instruction for members pursuing a pilot's license or additional
 ratings, conduct recurrent proficiency training for members, and check
 out members in the club's planes.</P>
