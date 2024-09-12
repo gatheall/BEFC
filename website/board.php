@@ -37,7 +37,7 @@
 	<tbody>
 		<tr>
 			<td>Club President</td>
-			<td>Chip Lawrence</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
