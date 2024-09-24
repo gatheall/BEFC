@@ -37,7 +37,7 @@
 	<tbody>
 		<tr>
 			<td>Club President</td>
-			<td>&nbsp;</td>
+			<td>Monica Girard</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
@@ -58,7 +58,7 @@
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>Monica Girard</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
 			<td>2023-2024</td>
