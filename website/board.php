@@ -58,7 +58,7 @@
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>&nbsp;</td>
+			<td>JD Lloyd</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
 			<td>2023-2024</td>
