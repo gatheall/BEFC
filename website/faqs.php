@@ -71,9 +71,7 @@ How much does it cost to join the club?</h3>
 <h3><br />
 Are your planes hangared? </h3>
 
-<p>The club rents a hanger on the Fedex cargo ramp at the Jetport and currently keeps our Cessna 172 in it year-round.</p>
-
-<p>The Piper is tied down on the North ramp at the Jetport for the prime flying season, although we will likely move it to another airport for the winter.</p>
+<p>The Cessna and Piper are both tied down on the North ramp at the Jetport for the prime flying season and hangared in Lewiston during late fall and winter.</p>
 
 <h3><br />
 How fast/how far do your planes go? </h3>
@@ -103,7 +101,7 @@ Can the club help me learn to fly?</h3>
 <h3><br />
 How much does it cost to become a pilot?</h3>
 
-<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $9000, but that price can be much higher if you require more hours before you are ready for your checkride. </p>
+<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $10,000, but that price can be much higher if you require more hours before you are ready for your checkride. </p>
 
 <p>&nbsp;</p>
 
@@ -117,7 +115,7 @@ How much does it cost to become a pilot?</h3>
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2024 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
