@@ -146,7 +146,7 @@ headset:</p>
 <p>This varies a lot from student to student, but a best guess of total cost is listed below. </p>
 
 <ul>
-	<li>50 hours of plane rental in <a href="./aircraft.php#8181N">N8181N</a> ($110/hr) - $5500</li>
+	<li>50 hours of plane rental in <a href="./aircraft.php#8181N">N8181N</a> ($130/hr) - $6500</li>
 	<li>40 hours of instructor time @ $50/hr - $2000</li>
 	<li>Pilot's Headset - $300</li>
 	<li>Kneeboard - $40</li>
@@ -159,7 +159,7 @@ headset:</p>
 	<li>FAA checkride (Private Pilot Practical test) - $300 (each attempt)</li>
 </ul>
 
-<p>Total: $8,750</p>
+<p>Total: $9,750</p>
 
 <p>Please understand that this is an estimate.  It is possible to
 "cut-corners" a bit and not spend quite this much.  Perhaps you buy a
@@ -187,7 +187,7 @@ safely, to your experience in the air.  </p>
         </div>
 		<div id="footerwrap">
         <div id="footer">
-            <p>&copy; 2018-2022 Bald Eagle Flying Club, Portland, ME</p>
+            <p>&copy; 2018-2024 Bald Eagle Flying Club, Portland, ME</p>
         </div>
     </div>
     </div>
