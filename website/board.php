@@ -65,14 +65,14 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Randall Walls</td>
+			<td>Aaron Bundy</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>Aaron Bundy</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
@@ -100,7 +100,7 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Michael Weldon</td>
+			<td>Randall Walls</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
