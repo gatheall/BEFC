@@ -47,21 +47,21 @@
 			<td>Marc Cardullo</td>
 			<td>(207) 590-5760</td>
 			<td><a href="mailto:vpresident@baldeagleflyingclub.org">vpresident@baldeagleflyingclub.org</a></td>
-			<td>2023-2024</td>
+			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Treasurer</td>
-			<td>George A. Theall</td>
+			<td>Joe Kellner</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:treasurer@baldeagleflyingclub.org">treasurer@baldeagleflyingclub.org</a></td>
-			<td>2023-2024</td>
+			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>JD Lloyd</td>
+			<td>Randall Walls</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
-			<td>2023-2024</td>
+			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
@@ -93,14 +93,14 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Tom Pulling</td>
+			<td>Matt Hladik</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
-			<td>2023-2024</td>
+			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Randall Walls</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
