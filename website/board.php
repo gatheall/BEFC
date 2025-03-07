@@ -100,7 +100,7 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>&nbsp;</td>
+			<td>Jay Crosby</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
