@@ -37,10 +37,10 @@
 	<tbody>
 		<tr>
 			<td>Club President</td>
-			<td>Monica Girard</td>
+			<td>Benjamin Capellari</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
-			<td>2024-2025</td>
+			<td>2026-2027</td>
 		</tr>
 		<tr>
 			<td>Vice President</td>
@@ -72,7 +72,7 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>&nbsp;</td>
+			<td>Connor Mcghie</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
@@ -100,10 +100,10 @@
 		</tr>
 		<tr>
 			<td>Member at Large</td>
-			<td>Jay Crosby</td>
+			<td>Monica Girard</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
-			<td>2024-2025</td>
+			<td>2026-2027</td>
 		</tr>
 	</tbody>
 </table>
