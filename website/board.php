@@ -78,20 +78,6 @@
 			<td>&nbsp;</td>
 		</tr>
 		<tr>
-			<td>Flight Instructor</td>
-			<td>Multiple</td>
-			<td>&nbsp;</td>
-			<td><a href="mailto:cfi@baldeagleflyingclub.org">cfi@baldeagleflyingclub.org</a></td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
-			<td>Webmaster</td>
-			<td>&nbsp;</td>
-			<td>&nbsp;</td>
-			<td><a href="mailto:website@baldeagleflyingclub.org">website@baldeagleflyingclub.org</a></td>
-			<td>&nbsp;</td>
-		</tr>
-		<tr>
 			<td>Member at Large</td>
 			<td>Matt Hladik</td>
 			<td>&nbsp;</td>
@@ -106,6 +92,36 @@
 			<td>2026-2027</td>
 		</tr>
 	</tbody>
+</table>
+
+<p>Additional contact information for the club.</p>
+
+<table border="1" cellpadding="1" cellspacing="1" class="membertable" id="membertable" style="width:700px">
+	<caption>
+	<h2>&nbsp;</h2>
+	</caption>
+	<thead>
+		<tr>
+			<th scope="col">Position</th>
+			<th scope="col">Name</th>
+			<th scope="col">Email</th>
+		</tr>
+	</thead>
+		<tr>
+			<td>Flight Instructor(s)</td>
+			<td>Multiple</td>
+			<td><a href="mailto:cfi@baldeagleflyingclub.org">cfi@baldeagleflyingclub.org</a></td>
+		</tr>
+		<tr>
+			<td>Membership Coordinator</td>
+			<td>Monica Girard</td>
+			<td><a href="mailto:membership@baldeagleflyingclub.org">membership@baldeagleflyingclub.org</a></td>
+		</tr>
+		<tr>
+			<td>Webmaster</td>
+			<td>&nbsp;</td>
+			<td><a href="mailto:website@baldeagleflyingclub.org">website@baldeagleflyingclub.org</a></td>
+		</tr>
 </table>
 
 <p>&nbsp;</p>
