@@ -51,7 +51,7 @@
 		</tr>
 		<tr>
 			<td>Treasurer</td>
-			<td>Joe Kellner</td>
+			<td>Dylan Smith</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:treasurer@baldeagleflyingclub.org">treasurer@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
