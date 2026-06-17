@@ -96,7 +96,7 @@ Does the club have insurance coverage? </h3>
 <h3><br />
 Can the club help me learn to fly?</h3>
 
-<p>Absolutely. The club has several CFIs and we have helped many aspiring pilots obtain their Private Pilot certificate. Our CFIs may be emailed @ <a href="mailto:cfi@baldeagleflyingclub.org?subject=Request%20for%20information%20about%20becoming%20a%20student%20pilot%20with%20the%20flying%20club">cfi@baldeagleflyingclub.org</a>.</p>
+<p>At this time, we are unable to accept applications from student pilots who are looking to complete their initial training. However, the club has several CFIs who can help members who are current private pilots obtain their instrument rating or commercial certificate. Our CFIs may be emailed @ <a href="mailto:cfi@baldeagleflyingclub.org?subject=Request%20for%20information%20about%20becoming%20a%20student%20pilot%20with%20the%20flying%20club">cfi@baldeagleflyingclub.org</a>.</p>
 
 <h3><br />
 How much does it cost to become a pilot?</h3>
