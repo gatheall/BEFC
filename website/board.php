@@ -58,7 +58,7 @@
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>Randall Walls</td>
+			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
