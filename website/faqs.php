@@ -26,7 +26,7 @@
 <h3><br />
 Where is your home airport?</h3>
 
-<p>The Bald Eagle Flying Club makes its home at the Portland International Jetport, KPWM, in Portland, ME.</p>
+<p>The Bald Eagle Flying Club makes its home at the Portland International Jetport, KPWM, in Portland, ME, with a secondary home at the Auburn/Lewiston Municipal Airport, KLEW, in Auburn, ME.</p>
 
 <h3><br />
 How many planes does the club own?</h3>
@@ -46,7 +46,7 @@ How easy is it to reserve a plane?</h3>
 <h3><br />
 Where/How often are the club meetings?</h3>
 
-<p>Club meetings are typically monthly on the third Monday of the month. All members are welcome to attend. Board members meet an hour before the general membership to discuss club business.</p>
+<p>Club meetings are typically quarterly on the third Monday of the month. All members are welcome to attend. Board members meet an hour before the general membership to discuss club business.</p>
 
 <h3><br />
 Who are the board members?</h3>
@@ -61,17 +61,17 @@ How are the planes maintained?</h3>
 <h3><br />
 How much does it cost to fly?</h3>
 
-<p>As of November 1, 2024, the hourly rate for N4818D (Cessna 172N) is $155/hr wet, and it's $130/hr wet for N8181N (Piper Cherokee).</p>
+<p>As of July 1, 2026, the hourly rate for N4818D (Cessna 172N) is $160/hr wet, and $135/hr wet for N8181N (Piper Cherokee).</p>
 
 <h3><br />
 How much does it cost to join the club?</h3>
 
-<p>In order to join the club, there is a one-time initiation fee of $550, and $300 of club stock must be purchased at the same time. The stock is refundable upon leaving the club, but the initiation fee is not refundable. More information may be found <a href="/join.php" target="_self">here</a>.</p>
+<p>In order to join the club, there is a one-time initiation fee of $1,000, and $300 of club stock must be purchased at the same time. The stock is refundable upon leaving the club, but the initiation fee is not refundable. More information may be found <a href="/join.php" target="_self">here</a>.</p>
 
 <h3><br />
 Are your planes hangared? </h3>
 
-<p>The Cessna and Piper are both tied down on the North ramp at the Jetport for the prime flying season and hangared in Lewiston during late fall and winter.</p>
+<p>The Cessna and Piper are both tied down on the Z ramp at the Jetport (KPWM) for the prime flying season and hangared in Lewiston (KLEW) during late fall and winter.</p>
 
 <h3><br />
 How fast/how far do your planes go? </h3>
