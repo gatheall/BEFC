@@ -75,7 +75,7 @@ that you can safely pilot an aircraft, and that takes varying amounts of
 time depending on how quickly you master the different aspects of
 flight.  It is the same with flying solo - it is up to you <em>and your
 instructor</em> to make sure that you are fully comfortable and
-competent before you have the check ride with the FAA inspector.  And
+competent before you have the check ride with the Designated Pilot Examiner (DPE).  And
 speaking of the FAA....  </p>
 
 <h3>The FAA</h3>
@@ -146,20 +146,20 @@ headset:</p>
 <p>This varies a lot from student to student, but a best guess of total cost is listed below. </p>
 
 <ul>
-	<li>50 hours of plane rental in <a href="./aircraft.php#8181N">N8181N</a> ($130/hr) - $6500</li>
-	<li>40 hours of instructor time @ $50/hr - $2000</li>
-	<li>Pilot's Headset - $300</li>
+	<li>50 hours of plane rental in <a href="./aircraft.php#8181N">N8181N</a> ($135/hr) - $6750</li>
+	<li>40 hours of instructor time @ $75/hr (estimated) - $3000</li>
+	<li>Pilot's Headset - $300-$1200 depending on the headset</li>
 	<li>Kneeboard - $40</li>
 	<li>Sectional charts - $30</li>
 	<li>E6B flight calculator and plotter - $30</li>
 	<li>Foggles - $25</li>
-	<li>FAA 3rd class medical examination with AME - $80</li>
+	<li>FAA 3rd class medical examination with AME - $125</li>
 	<li>Study materials for Private Pilot Airplane (PAR) written test - $200</li>
-	<li>Private Pilot - Airplane (PAR) written test - $155 (each attempt)</li>
-	<li>FAA checkride (Private Pilot Practical test) - $300 (each attempt)</li>
+	<li>Private Pilot - Airplane (PAR) written test - $175 (each attempt)</li>
+	<li>FAA checkride (Private Pilot Practical test) - $700 (each attempt)</li>
 </ul>
 
-<p>Total: $9,750</p>
+<p>Total: $12,000-$15,000</p>
 
 <p>Please understand that this is an estimate.  It is possible to
 "cut-corners" a bit and not spend quite this much.  Perhaps you buy a
