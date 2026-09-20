@@ -29,7 +29,6 @@
 		<tr>
 			<th scope="col">Position</th>
 			<th scope="col">Name</th>
-			<th scope="col">Phone</th>
 			<th scope="col">Email</th>
 			<th scope="col">Board Term</th>
 		</tr>
@@ -38,27 +37,23 @@
 		<tr>
 			<td>Club President</td>
 			<td>Benjamin Capellari</td>
-			<td>&nbsp;</td>
 			<td><a href="mailto:president@baldeagleflyingclub.org">president@baldeagleflyingclub.org</a></td>
 			<td>2026-2027</td>
 		</tr>
 		<tr>
 			<td>Vice President</td>
 			<td>Marc Cardullo</td>
-			<td>(207) 590-5760</td>
 			<td><a href="mailto:vpresident@baldeagleflyingclub.org">vpresident@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Treasurer</td>
 			<td>Dylan Smith</td>
-			<td>&nbsp;</td>
 			<td><a href="mailto:treasurer@baldeagleflyingclub.org">treasurer@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Secretary</td>
-			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:secretary@baldeagleflyingclub.org">secretary@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
@@ -66,13 +61,11 @@
 		<tr>
 			<td>Maintenance</td>
 			<td>Aaron Bundy</td>
-			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>2024-2025</td>
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>&nbsp;</td>
 			<td>&nbsp;</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
@@ -80,14 +73,12 @@
 		<tr>
 			<td>Member at Large</td>
 			<td>Matt Hladik</td>
-			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 			<td>2025-2026</td>
 		</tr>
 		<tr>
 			<td>Member at Large</td>
 			<td>Monica Girard</td>
-			<td>&nbsp;</td>
 			<td><a href="mailto:board@baldeagleflyingclub.org">board@baldeagleflyingclub.org</a></td>
 			<td>2026-2027</td>
 		</tr>
