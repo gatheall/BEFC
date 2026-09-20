@@ -21,7 +21,7 @@
 
 <h3>How old is the club?</h3>
 
-<p>The club was founded in 1956 and turned 60 years old in 2016. More info about the club's beginning can be found on the <a href="/history.php" target="_self">history</a> page. </p>
+<p>The club was founded in 1956 and turned 70 years old in 2026! More info about the club's beginning can be found on the <a href="/history.php" target="_self">history</a> page. </p>
 
 <h3><br />
 Where is your home airport?</h3>
