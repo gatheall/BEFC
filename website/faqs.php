@@ -86,7 +86,7 @@ Who do I talk to about joining the club?</h3>
 <h3><br />
 Do I have to know someone in the club in order to join?</h3>
 
-<p>Not at all. We welcome anyone who is interested in general aviation to contact us about joining the club. Student pilots are welcome as well. </p>
+<p>Not at all. We welcome anyone who is interested in general aviation to contact us about joining the club. Student pilots are encouraged to apply and keep the membership coordinator on their progress, but won't be able to join until they obtain their private pilot certificate. </p>
 
 <h3><br />
 Does the club have insurance coverage? </h3>
@@ -96,12 +96,12 @@ Does the club have insurance coverage? </h3>
 <h3><br />
 Can the club help me learn to fly?</h3>
 
-<p>At this time, we are unable to accept applications from student pilots who are looking to complete their initial training. However, the club has several CFIs who can help members who are current private pilots obtain their instrument rating or commercial certificate. Our CFIs may be emailed @ <a href="mailto:cfi@baldeagleflyingclub.org?subject=Request%20for%20information%20about%20becoming%20a%20student%20pilot%20with%20the%20flying%20club">cfi@baldeagleflyingclub.org</a>.</p>
+<p>At this time, we are unable to accept applications from student pilots who are looking to complete their initial training. However, the club has several CFIs who can help members who are current (or even newly rated) private pilots obtain their instrument rating or commercial certificate. Our CFIs may be emailed @ <a href="mailto:cfi@baldeagleflyingclub.org?subject=Request%20for%20information%20about%20becoming%20a%20student%20pilot%20with%20the%20flying%20club">cfi@baldeagleflyingclub.org</a>.</p>
 
 <h3><br />
 How much does it cost to become a pilot?</h3>
 
-<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $10,000, but that price can be much higher if you require more hours before you are ready for your checkride. </p>
+<p>This varies from student to student, but an example breakdown of costs may be found on the <a href="/learn2fly.php" target="_self">learning to fly</a> page. On average it is about $15,000, but that price can be much higher if you require more hours before you are ready for your checkride. Please note that the club is currently unable to offer initial training to student pilots. </p>
 
 <p>&nbsp;</p>
 
