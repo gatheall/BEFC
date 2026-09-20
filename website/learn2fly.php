@@ -19,7 +19,7 @@
 		<div id="content">
 		<h2>So you want to learn to fly....</h2>
 
-<p>Chances are, if you've stumbled onto this page, it is because you are interested in learning to fly. Perhaps you thought that the Bald Eagle Flying Club could help, and you'd be right. The club has helped many pilots earn their Private Pilot or Recreational licenses. We have several memebers who are Certified Flight Instructors, and we love to see new pilots take to the sky. <img alt="" src="/img/upload/images/Cleveland_night_flight_small.JPG" style="border-style:solid; border-width:1px; float:right; height:400px; margin:8px; width:533px" /></p>
+<p>Chances are, if you've stumbled onto this page, it is because you are interested in learning to fly. Perhaps you thought that the Bald Eagle Flying Club could help, and you'd be right. The club has helped many pilots earn their Private Pilot or Recreational licenses. We have several memebers who are Certified Flight Instructors, and we love to see new pilots take to the sky. While the club is unable to welcome student pilots at this time, we encourage newly rated pilots to apply. The club actively encourages pilots to keep learning and honing their skills, or pursuing additional certification, such as an instrument rating or commercial certificate.<img alt="" src="/img/upload/images/Cleveland_night_flight_small.JPG" style="border-style:solid; border-width:1px; float:right; height:400px; margin:8px; width:533px" /></p>
 
 <p>Interested? Visit the <a href="/contact.php">contact</a> page and send a message to the club.</p>
 
