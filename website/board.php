@@ -66,7 +66,7 @@
 		</tr>
 		<tr>
 			<td>Maintenance</td>
-			<td>&nbsp;</td>
+			<td>Vincent Vandyck</td>
 			<td><a href="mailto:maintenance@baldeagleflyingclub.org">maintenance@baldeagleflyingclub.org</a></td>
 			<td>&nbsp;</td>
 		</tr>
