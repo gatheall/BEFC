@@ -61,7 +61,7 @@ How are the planes maintained?</h3>
 <h3><br />
 How much does it cost to fly?</h3>
 
-<p>As of July 1, 2026, the hourly rate for N4818D (Cessna 172N) is $160/hr wet, and $135/hr wet for N8181N (Piper Cherokee).</p>
+<p>As of November 1, 2026, the hourly rate for N4818D (Cessna 172N) is $170/hr wet, and $135/hr wet for N8181N (Piper Cherokee).</p>
 
 <h3><br />
 How much does it cost to join the club?</h3>
