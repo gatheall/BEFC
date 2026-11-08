@@ -145,7 +145,7 @@ margin:8px; width:660px" /></p>
 		</tr>
 		<tr>
 			<td>Usage Rate:</td>
-			<td>$160</td>
+			<td>$170</td>
 		</tr>
 	</tbody>
 </table>
